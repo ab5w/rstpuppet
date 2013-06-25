@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/etc/init.d/puppet restart && tail -f /var/log/syslog | grep puppet
