@@ -2,7 +2,8 @@
 #   Just a little script to restart puppet and tail the log, to pickup the
 #   new catalog and check it's doing stuff/what it errors on. 
 #   
-#   To use just type 'rstpuppet' in your shell.
+#   To use add to your manifest with 'include rstpuppet' then 
+#   you just need to type 'rstpuppet' in your shell once it's on the server.
 #   
 #   Copyright (C) 2013 Craig Parker <craig@paragon.net.uk>
 #
