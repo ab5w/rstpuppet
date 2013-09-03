@@ -34,7 +34,7 @@ class rstpuppet {
 
     } elsif $::osfamily == 'debian' {
 
-                file { '/usr/local/sbin/rstpuppet':
+            file { '/usr/local/sbin/rstpuppet':
                 source => "puppet:///modules/rstpuppet/rstpuppet.debian",
                 mode => 0754,
             }
